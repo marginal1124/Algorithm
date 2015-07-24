@@ -1,8 +1,16 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
-
+/*
+ * sum 给出一个数组，找出三个数字和为0的三个数，找到所有的且不能有重复
+ * 
+ * 难点：去重
+ * 首先确定一个数为target，剩余的两个数通过双指针的方法
+ * 确定第一个数的时候如果前后两个数相同，应该去重（因为已经排过序）
+ * 剩余两个数寻找的时候，找到了一个，m++,n--,
+ * 继续下一步时，先判断是否前后数值相同
+ * 
+ * */
 public class ThreeSum {
 
 	public static void main(String[] args) {

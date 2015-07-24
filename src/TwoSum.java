@@ -8,11 +8,10 @@ import java.util.Arrays;
 public class TwoSum {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		int [] numbers = {1,8,3,3,2};
-		int target = 90;
-		//
+		int target = 9;
+
 		//int [] result = twoSum(numbers,target);
 		//System.out.println("第一个下标："+result[0]+"第二个下标"+result[1]);
 	

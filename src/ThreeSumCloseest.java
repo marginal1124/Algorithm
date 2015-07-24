@@ -1,6 +1,13 @@
 import java.util.Arrays;
 
-
+/*
+ * 给定一个数组，一个target，返回数组中三个数的和 与target值最接近的  sum
+ * 
+ * 首先将数组排序
+ * 先确定一个数，两外两个数通过双指针前后寻找
+ * 寻找过程中比较与 target 的差
+ * 
+ * */
 public class ThreeSumCloseest {
 
 	public static void main(String[] args) {

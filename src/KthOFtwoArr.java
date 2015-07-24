@@ -2,14 +2,16 @@
 public class KthOFtwoArr {
 
 	public static void main(String[] args) {
-
+/*
+ * 求两个数组中的第K 大数
+ * */
 		int [] a = {};
 		int [] b = {2,3};
 		/*
 		 * 计算普通 K 大数
 		 * 
 		 * int k = 5;
-		System.out.println(findKofTwoArr(a, 0, a.length-1, b, 0, b.length-1, k));
+		 * System.out.println(findKofTwoArr(a, 0, a.length-1, b, 0, b.length-1, k));
 		*/
 		
 		

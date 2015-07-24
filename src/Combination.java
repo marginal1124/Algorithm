@@ -1,7 +1,8 @@
 import java.util.Vector;
 
 /*
- * 组合问题，{1,2}组合{}{1}，{2}，{1,2}
+ * 组合问题，{1,2}求组合
+ * 输出：{}{1}，{2}，{1,2}
  * */
 public class Combination {
 
